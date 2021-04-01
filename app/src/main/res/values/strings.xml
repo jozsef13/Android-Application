@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WooProducts Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="username">Simon Gabriel</string>
+    <string name="contentDescription">Description</string>
+    <string name="connectToWifi">It looks like you are connected to mobile data internet or you are not connected to any type of internet. Do you want to go to settings and connect to a Wi-Fi?</string>
+    <string name="wifiAlertTitle">Wi-Fi connection</string>
+    <string name="mobileConnection">You are connected to mobile data network. Press the button below if you want to connect to Wi-Fi.</string>
+    <string name="wifiConnection">You are connected to Wi-Fi network.</string>
+    <string name="notConnected">You are not connected to any network. Press the button below if you want to connect to Wi-Fi.</string>
+</resources>
