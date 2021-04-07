@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="156dp"
+        android:layout_height="153dp"
+        android:layout_weight="33.3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="66.6">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/productTitle"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Product"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/productPrice"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Price"
+            android:layout_below = "@+id/productTitle"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/productCategory"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Details"
+            android:layout_below = "@+id/productPrice"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/productDetails"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Details"
+            android:layout_below = "@+id/productCategory"/>
+    </LinearLayout>
+</LinearLayout>
