@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "967080595883",
+    "project_id": "prime-burner-273011",
+    "storage_bucket": "prime-burner-273011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967080595883:android:dd8c6340650b0ec23e02ee",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967080595883-1iimdd56oq6s9if9t8fn0th1ka14q3il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK1dL2rvnHXcpXy03K7-B7BogpcqmWQ8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967080595883-1iimdd56oq6s9if9t8fn0th1ka14q3il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
